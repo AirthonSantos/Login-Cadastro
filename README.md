@@ -1,6 +1,6 @@
 # Login-Cadastro
 
-![License: MIT](https://img.shields.io/badge/License-MIT-green?style=flat-square)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green?style=flat-square)](https://github.com/AirthonSantos/Login-Cadastro/blob/master/LICENSE)
 
 ## Sobre este projeto
 
