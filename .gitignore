@@ -1,5 +1,8 @@
 # Ignora a pasta __pycache__
 __pycache__/
 
+# Ignora o banco de dados gerado pela aplicação
+banco_de_dados.db
+
 # Ignora todos os arquivos .pyc
 *.pyc
