@@ -76,17 +76,3 @@ class BancoDados:
                 print(f"Erro ao fechar a conexão: {erro_programacao}")
             finally:
                 self._conector = None
-
-
-
-
-
-
-
-
-
-
-        
-        # if not self._cursor:
-        #     self._cursor.close() 
-        # self._conector.close()

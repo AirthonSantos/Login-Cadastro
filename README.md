@@ -27,7 +27,7 @@ Além disso, busquei implementar diversos recursos que, inicialmente, podem pass
 - Se o e-mail que o usuário está tentando cadastrar já existir no banco de dados, a operação é interrompida e uma mensagem de erro é exibida;
 - As queries do SQL utilizam placeholders que servem para impedir ataques SQL Injection;
 - O salt permite aumentar a segurança do hash da senha, dificultando ataques de dicionário e força bruta;
-- Implementei um recurso que encerra o programa, incluindo a conexão com o banco de dados ao fechar a tela de cadastro, garantindo o encerramento correto da aplicação. Isso foi necessário porque, quando a tela de cadastro é aberta, a tela de login é apenas ocultada, mas continua em execução. Se a tela de cadastro fosse fechada, a tela de login continuaria oculta e o usuário não poderia encerrar a aplicação corretamente. Por isso, foi necessário implementar esse recurso.
+- Implementei um recurso que encerra o programa, incluindo a conexão com o banco de dados ao fechar a tela de cadastro, garantindo o encerramento correto da aplicação. Isso foi necessário porque, quando a tela de cadastro é aberta, a tela de login é apenas ocultada, mas continua em execução. Se a tela de cadastro fosse fechada, a tela de login continuaria oculta e o usuário não poderia encerrar a aplicação corretamente. Por isso, foi necessário implementar esse recurso;
 - No banco de dados, há um campo denominado "data_hora" que armazena o registro da data e hora de cadastro do usuário. Essa informação é crucial para auxiliar nos registros de log;
 - A senha deve atender às diretrizes de uma senha forte:
     - Possuir no mínimo 8 caracteres;
