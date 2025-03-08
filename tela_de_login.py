@@ -138,7 +138,7 @@ class TelaLogin:
 
         # Valida os campos
         if len(email) > 0:
-            if match(r".+@.+\.com", email):
+            if match(r".+@.+\..+", email):
                 pass
             else:
                 messagebox.showwarning("Aviso", "E-mail Inválido")

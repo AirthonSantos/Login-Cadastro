@@ -183,7 +183,7 @@ class TelaCadastro:
             return
 
         if len(email) > 0:
-            if match(r".+@.+\.com", email):
+            if match(r".+@.+\..+", email):
                 pass         
             else:
                 messagebox.showwarning("Aviso", "E-mail Inválido")
@@ -232,7 +232,7 @@ class TelaCadastro:
             self._banco._cursor.execute(_comando, _dados)
             self._banco._conector.commit()
             
-            messagebox.showinfo("Usuário criado!", "Cadastro efetuado com sucesso")
+            messagebox.showinfo("Usuário criado!", "Cadastro efetuado com sucesso!")
         
         # Captura erros relacionados a dados inválidos ou inconsistentes
         except DataError as erro_dados:
